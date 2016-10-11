@@ -44,4 +44,4 @@ def mul(a, b):
 def div(a, b):
    	z = mul(a, conj(b))
 	return scale(z, 1.0/normSq(b))
-
+#
